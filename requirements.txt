@@ -2,3 +2,4 @@ python-telegram-bot
 pytelegrambotapi
 telethon
 flask
+emoji
