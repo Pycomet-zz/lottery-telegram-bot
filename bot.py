@@ -325,10 +325,10 @@ def callback_answer(call):
 
 
 
-# Development server
-print("Bot running.....")
-bot.remove_webhook()
-bot.polling(none_stop=True)
+# # Development server
+# print("Bot running.....")
+# bot.remove_webhook()
+# bot.polling(none_stop=True)
 
 
 
