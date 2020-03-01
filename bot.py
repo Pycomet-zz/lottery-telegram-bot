@@ -12,9 +12,6 @@ import telegram
 from datetime import date
 from flask import Flask, request
 
-# Server
-server = Flask(__name__)
-
 # Initializing the bot
 token = '1083080676:AAHU7aAZtHnIH-mX0JW1gq7vs9Sfi7w9fOs'
 
@@ -34,6 +31,9 @@ chat = '' # Instance Chat
 user = '' # Instance User
 
 bot = telebot.TeleBot(token=token, threaded=True)
+
+# Server
+server = Flask(__name__)
 
 @bot.message_handler(commands=['start'])
 def start(msg):
