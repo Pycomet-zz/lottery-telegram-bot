@@ -15,15 +15,23 @@ This is a telegram bot script that works as a lottery application and generate 3
 * From your terminal run,
 
     For Linux;
+
     > virtualenv env (Creating environment)
+
     > source env/bin/activate
+
     > pip3 install -r requirements.txt
+
     > python3 bot.py
 
     For Windows;
+    
     > python -m venv env (Creating environment)
+    
     > workon env
+    
     > pip install -r requirements.txt
+    
     > python bot.py
 
 * Enjoy the experience. Please reach out to me at alfredemmanuel.herokuapp.com, there you can find my social media links to share your experiences
