@@ -1,4 +1,4 @@
-LUCKY DRAW TELEGRAM BOT
+# LUCKY DRAW TELEGRAM BOT
 
 This is a telegram bot script that works as a lottery application and generate 30 winners based on random selections from users that contacted the bot.
 
@@ -6,7 +6,7 @@ This is a telegram bot script that works as a lottery application and generate 3
 - Displays the last 20 participants
 - Assigns a uniques lucky draw number to every individual user
 
-# Installation Progress
+## Installation Progress
 
 * Get your bot token from @BotFather and put into the parenthesis on line 14 of bot.py
 
