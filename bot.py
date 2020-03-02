@@ -13,7 +13,7 @@ from datetime import date
 from flask import Flask, request
 
 # Initializing the bot
-token = '' # <<---- INPUT YOUR BOT TOKEN HERE
+token = '' # <<---- INPUT YOUR BOT TOKEN 
 
 # Needed variables for the application
 message_id = '' #previous message to be deleted
@@ -332,4 +332,18 @@ bot.polling(none_stop=True)
 
 
 
+# # Production server
+# @server.route('/' + token, methods=['POST'])
+# def getMessage():
+#     bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
+#     return "Lucky Draw Bot Running!", 200
+
+# @server.route("/")
+# def webhook():
+#     bot.remove_webhook()
+#     bot.set_webhook(url='https://obscure-island-36357.herokuapp.com/' + token)
+#     return "Lucky Draw Bot Active!", 200
+
+# if __name__ == "__main__":
+#     server.run()
 
